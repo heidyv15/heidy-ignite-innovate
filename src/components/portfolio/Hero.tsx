@@ -81,7 +81,7 @@ const Hero = () => {
               <div className="absolute inset-4 rounded-[2.5rem] bg-gradient-hero shadow-card" />
               <div className="absolute inset-0 grid place-items-center">
                 <img
-                  src={heroImg}
+                  src={HeidyPic.png}
                   alt="Illustration of Heidy Veliz, STEM educator, with technology icons"
                   width={1024}
                   height={1024}
