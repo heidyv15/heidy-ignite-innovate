@@ -25,7 +25,7 @@ const About = () => {
 
           <div className="lg:col-span-7 space-y-5 text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm an <span className="text-foreground font-semibold">IT student at Florida International University</span>{" "}
+              I'm an <span className="text-foreground font-semibold">IT at Florida International University</span>{" "}
               (Dean's List, graduating Cum Laude) currently pursuing my{" "}
               <span className="text-foreground font-semibold">Master's in Engineering Management</span>.
             </p>
