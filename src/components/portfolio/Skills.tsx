@@ -14,28 +14,28 @@ const groups: Group[] = [
     icon: Code2,
     gradient: "bg-gradient-primary",
     iconColor: "text-primary-foreground",
-    skills: ["HTML", "CSS", "Python (foundational)", "CAD", "3D Printing", "Robotics", "Digital Fabrication"],
+    skills: ["HTML", "CSS", "Python (foundational)", "CAD", "3D Printing", "Robotics", "Digital Fabrication", "Prompt Engineering", "Innovation", "Engineering"],
   },
   {
     title: "Education",
     icon: GraduationCap,
     gradient: "bg-gradient-peach",
     iconColor: "text-accent-foreground",
-    skills: ["Project-Based Learning", "Curriculum Design", "Student Engagement", "Instructional Coaching"],
+    skills: ["Project-Based Learning", "Curriculum Design", "Student Engagement", "Instructional Coaching", "Instruction Delivery", "Project-Based Learning", "Technology Integration"],
   },
   {
     title: "IT",
     icon: Server,
     gradient: "bg-gradient-sky",
     iconColor: "text-secondary-foreground",
-    skills: ["Troubleshooting", "Virtual Machines", "Operating Systems", "Hardware Setup"],
+    skills: ["Troubleshooting", "Virtual Machines", "Operating Systems", "Hardware Setup", "Data Analysis",],
   },
   {
     title: "Soft Skills",
     icon: Sparkles,
     gradient: "bg-gradient-mint",
     iconColor: "text-mint-foreground",
-    skills: ["Public Speaking", "Collaboration", "Creativity"],
+    skills: ["Public Speaking", "Collaboration", "Creativity", "Strategic thinking", "Adaptability", "Emotional Intelligance", "Problem Solving"],
   },
 ];
 
