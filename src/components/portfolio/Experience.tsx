@@ -1,4 +1,4 @@
-import { BookOpen, Cpu } from "lucide-react";
+import { BookOpen, Code2, Cpu, Laptop, Sparkles } from "lucide-react";
 
 const jobs = [
   {
@@ -14,6 +14,34 @@ const jobs = [
       "Founded student clubs: Girls Who Design, Robotics, 3D Pen Engineering",
       "Hosted and produced the school's weekly Morning Show",
       "Integrated technology meaningfully into core classroom curricula",
+    ],
+  },
+  {
+    role: "Python Instructor — Break Through Tech",
+    org: "Hosted at my former high school",
+    period: "Recent",
+    icon: Code2,
+    accent: "bg-gradient-sky",
+    chipBg: "bg-sky/40 text-sky-foreground",
+    bullets: [
+      "Brought the Break Through Tech program back to my old high school",
+      "Taught Python fundamentals to a cohort of high school girls",
+      "Mentored students on building confidence in coding and tech careers",
+      "Created an inclusive space for young women exploring computer science",
+    ],
+  },
+  {
+    role: "Freelance K–8 Computer Science Tutor",
+    org: "Private 1:1 & small group sessions",
+    period: "Ongoing",
+    icon: Laptop,
+    accent: "bg-gradient-mint",
+    chipBg: "bg-mint/40 text-mint-foreground",
+    bullets: [
+      "Designed personalized CS lessons tailored to each student's pace and interests",
+      "Introduced kids to block coding, Python, web basics, and creative tech projects",
+      "Helped students build real projects they're proud to share with family",
+      "Partnered with parents to support long-term growth in tech literacy",
     ],
   },
   {
