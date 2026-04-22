@@ -1,4 +1,4 @@
-import { GraduationCap, Sparkles } from "lucide-react";
+import { Award, GraduationCap, Palette, Sparkles, Trello } from "lucide-react";
 
 const degrees = [
   {
@@ -16,6 +16,22 @@ const degrees = [
     status: "In Progress",
     icon: Sparkles,
     gradient: "bg-gradient-mint",
+  },
+  {
+    degree: "Web Design & Development Certification",
+    school: "America On Tech",
+    detail: "Hands-on training in HTML, CSS, and modern web fundamentals",
+    status: "Completed",
+    icon: Palette,
+    gradient: "bg-gradient-peach",
+  },
+  {
+    degree: "Google Project Management Certificate",
+    school: "Google · Coursera",
+    detail: "Agile, Scrum, and end-to-end project delivery",
+    status: "In Progress",
+    icon: Trello,
+    gradient: "bg-gradient-sky",
   },
 ];
 

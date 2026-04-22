@@ -1,9 +1,9 @@
-import { GraduationCap, Heart, Lightbulb, Users } from "lucide-react";
+import { GraduationCap, Heart, Lightbulb, Rocket, Users } from "lucide-react";
 
 const stats = [
   { icon: Users, label: "Students taught", value: "K–12" },
   { icon: GraduationCap, label: "GPA honors", value: "Cum Laude" },
-  { icon: Lightbulb, label: "STEM clubs led", value: "3+" },
+  { icon: Rocket, label: "Superpower", value: "Fast learner" },
   { icon: Heart, label: "Driven by", value: "Curiosity" },
 ];
 
@@ -39,6 +39,11 @@ const About = () => {
               Whether I'm building a STEM Lab from scratch, scripting a Roblox game with
               middle schoolers, or troubleshooting a stubborn virtual machine, I bring the
               same energy: curious, collaborative, and a little bit playful.
+            </p>
+            <p>
+              My greatest assets? <span className="text-foreground font-semibold">I learn quickly and I love learning</span> —
+              constantly. New tools, new frameworks, new classrooms — I dive in, ask questions,
+              and bring others along for the ride.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 pt-6">
