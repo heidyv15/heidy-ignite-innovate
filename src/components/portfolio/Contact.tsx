@@ -3,22 +3,22 @@ import { Github, Linkedin, Mail, ArrowUpRight } from "lucide-react";
 const links = [
   {
     label: "Email",
-    value: "heidy.veliz@email.com",
-    href: "mailto:heidy.veliz@email.com",
+    value: "velizheidy1578@gmail.com",
+    href: "mailto:velizheidy1578@gmail.com",
     icon: Mail,
     gradient: "bg-gradient-primary",
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/heidyveliz",
-    href: "https://linkedin.com",
+    value: "linkedin.com/in/heidy-veliz-fiu6393987",
+    href: "https://www.linkedin.com/in/heidy-veliz-fiu6393987/",
     icon: Linkedin,
     gradient: "bg-gradient-sky",
   },
   {
     label: "GitHub",
-    value: "github.com/heidyveliz",
-    href: "https://github.com",
+    value: "github.com/heidyv15",
+    href: "https://github.com/heidyv15",
     icon: Github,
     gradient: "bg-gradient-mint",
   },
