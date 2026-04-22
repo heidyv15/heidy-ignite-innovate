@@ -39,8 +39,8 @@ const projects: Project[] = [
     gradient: "bg-gradient-mint",
     short: "Hands-on robotics, 3D-printed parts, and engineering builds across K–8 classrooms.",
     details:
-      "A growing portfolio of student-built projects from the STEM Lab — line-following robots, 3D-printed prosthetics-inspired hands, marble runs, paper circuits, and more. Curriculum designed with Project-Based Learning at the core.",
-    stack: ["Robotics", "3D Printing", "CAD", "PBL"],
+      "An evolving collection of interdisciplinary projects designed for K–8 learners, blending engineering, creativity, and technology. In partnership with classroom teachers, students engage in design challenges, robotics, digital fabrication, and innovative builds—from functional prototypes to creative tech experiences. Grounded in Project-Based Learning, each project emphasizes collaboration, problem-solving, and forward-thinking design.",
+    stack: ["Robotics", "3D Printing", "Engineering", "PBL"],
   },
   {
     title: "Morning Show Production",
