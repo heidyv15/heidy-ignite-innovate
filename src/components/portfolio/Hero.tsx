@@ -1,6 +1,6 @@
 import { ArrowRight, FileText, Linkedin, Sparkles, Code2, Cpu, GraduationCap, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImg from "@/assets/hero-illustration.png";
+
 
 const Hero = () => {
   return (
@@ -60,16 +60,15 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="flex flex-wrap gap-2 pt-4">
-              {[
-                { icon: GraduationCap, label: "FIU Cum Laude" },
-                { icon: Cpu, label: "STEM Lab Builder" },
-                { icon: Code2, label: "K–8 Educator" },
-                { icon: Rocket, label: "Engineering Mgmt MS" },
-              ].map((b) => (
-                <div key={b.label} className="chip bg-card border border-border text-foreground">
-                  <b.icon className="w-3.5 h-3.5 text-primary" />
-                  {b.label}
+            <div className="absolute inset-0 grid place-items-center">
+  <img
+    src="/HeidyPic.png"
+    alt="Illustration of Heidy Veliz, STEM educator, with technology icons"
+    width={1024}
+    height={1024}
+    className="w-[88%] h-[88%] object-contain drop-shadow-xl animate-float-slow"
+  />
+</div>
                 </div>
               ))}
             </div>
