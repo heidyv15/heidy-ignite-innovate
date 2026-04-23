@@ -1,11 +1,9 @@
 import { ArrowRight, FileText, Linkedin, Sparkles, Code2, Cpu, GraduationCap, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-
 const Hero = () => {
   return (
     <section id="top" className="relative pt-32 md:pt-40 pb-20 overflow-hidden">
-      {/* Decorative blobs */}
       <div className="absolute inset-0 mesh-bg -z-10" />
       <div className="absolute top-20 -left-20 w-72 h-72 bg-primary/30 rounded-full blur-3xl animate-blob -z-10" />
       <div className="absolute top-40 right-0 w-72 h-72 bg-coral/30 rounded-full blur-3xl animate-blob -z-10" style={{ animationDelay: "3s" }} />
@@ -13,6 +11,8 @@ const Hero = () => {
 
       <div className="container">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
+
+          {/* Left column */}
           <div className="lg:col-span-7 space-y-8 animate-fade-in-up">
             <div className="chip bg-card/70 backdrop-blur border border-border shadow-soft">
               <span className="relative flex w-2 h-2">
@@ -60,27 +60,28 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="absolute inset-0 grid place-items-center">
-  <img
-    src="/HeidyPic.png"
-    alt="Illustration of Heidy Veliz, STEM educator, with technology icons"
-    width={1024}
-    height={1024}
-    className="w-[88%] h-[88%] object-contain drop-shadow-xl animate-float-slow"
-  />
-</div>
+            <div className="flex flex-wrap gap-2 pt-4">
+              {[
+                { icon: GraduationCap, label: "FIU Cum Laude" },
+                { icon: Cpu, label: "STEM Lab Builder" },
+                { icon: Code2, label: "K–8 Educator" },
+                { icon: Rocket, label: "Engineering Mgmt MS" },
+              ].map((b) => (
+                <div key={b.label} className="chip bg-card border border-border text-foreground">
+                  <b.icon className="w-3.5 h-3.5 text-primary" />
+                  {b.label}
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Right column — illustration + floating cards */}
+          {/* Right column */}
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-square max-w-md mx-auto">
               <div className="absolute inset-4 rounded-[2.5rem] bg-gradient-hero shadow-card" />
               <div className="absolute inset-0 grid place-items-center">
                 <img
-            <img src="/assets/HeidyPic.png" />
+                  src="/HeidyPic.png"
                   alt="Illustration of Heidy Veliz, STEM educator, with technology icons"
                   width={1024}
                   height={1024}
@@ -88,7 +89,6 @@ const Hero = () => {
                 />
               </div>
 
-              {/* Floating mini cards */}
               <div className="absolute -top-2 -left-2 glass-card rounded-2xl px-4 py-3 flex items-center gap-2 animate-float">
                 <div className="w-9 h-9 rounded-xl bg-gradient-mint grid place-items-center">
                   <Sparkles className="w-4 h-4 text-mint-foreground" />
@@ -114,6 +114,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
