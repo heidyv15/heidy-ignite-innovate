@@ -78,7 +78,7 @@ const Hero = () => {
           {/* Right column */}
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-square max-w-md mx-auto">
-            <div className="absolute inset-4 rounded-[2.5rem]" />
+            <div className="absolute inset-4 rounded-[2.5rem] bg-gradient-hero shadow-card" />
               <div className="absolute inset-0 grid place-items-center">
                 <img
                   src="/HeidyPic.png"
