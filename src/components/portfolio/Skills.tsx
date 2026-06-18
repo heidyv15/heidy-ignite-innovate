@@ -1,8 +1,8 @@
-import { Bot, Code2, Users, Sparkles } from "lucide-react";
+import { Bot, Code2, Users, Sparkles, type LucideIcon } from "lucide-react";
 
 type Group = {
     title: string;
-    icon: React.ElementType;
+        icon: LucideIcon;
     gradient: string;
     iconColor: string;
     skills: string[];
