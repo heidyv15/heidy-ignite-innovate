@@ -1,11 +1,11 @@
-import { ExternalLink, Bot, Wrench, Network } from "lucide-react";
+import { ExternalLink, Bot, Wrench, Network, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 type Project = {
     id: string;
     title: string;
     tag: string;
-    icon: React.ElementType;
+        icon: LucideIcon;
     gradient: string;
     short: string;
     details: string;
