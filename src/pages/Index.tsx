@@ -14,7 +14,7 @@ const Index = () => {
                 <About />
                 <Skills />
                 <Contact />
-          </main>main>
+          </main>
         );
 };
 
