@@ -1,4 +1,4 @@
-import { Bot, Building2, Lightbulb, Users, GraduationCap } from "lucide-react";
+import { Bot, Building2, Users, GraduationCap, type LucideIcon } from "lucide-react";
 
 const stats = [
   { icon: Bot, label: "AI Systems Built", value: "Real-World" },
